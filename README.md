@@ -29,6 +29,10 @@ For more information, including detailed usage guidelines, see the [Terraform do
 | discord_server_id | Discord Server Identifier. | `string` | yes |
 | discord_token | Discord API Token. | `string` | yes |
 | project_identifier | Human-readable Project Identifier. | `string` | yes |
+| discord_administrators | List of Discord User IDs to add to the Administrator Role. | `list(string)` | no |
+| discord_bots | List of Discord User IDs to add to the Bots Role. | `list(string)` | no |
+| discord_moderators | List of Discord User IDs to add to the Moderators Role. | `list(string)` | no |
+
 ### Outputs
 
 | Name | Description |
@@ -37,6 +41,11 @@ For more information, including detailed usage guidelines, see the [Terraform do
 | discord_category_info | Exported Attributes for `discord_category_channel.info`. |
 | discord_category_internal | Exported Attributes for `discord_category_channel.internal`. |
 | discord_category_labs | Exported Attributes for `discord_category_channel.labs`. |
+| discord_role_administrators | Exported Attributes for `discord_role.administrators`. |
+| discord_role_bots | Exported Attributes for `discord_role.bots`. |
+| discord_role_everyone | Exported Attributes for `discord_role_everyone.everyone`. |
+| discord_role_everyone_view_only | Exported Attributes for `discord_role.everyone_view_only`. |
+| discord_role_moderators | Exported Attributes for `discord_role.moderators`. |
 | discord_server | Exported Attributes for `discord_server`. |
 | discord_system_channel | Exported Attributes for `discord_system_channel.main`. |
 | discord_text_channel_general | Exported Attributes for `discord_text_channel.general`. |

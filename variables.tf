@@ -1,3 +1,32 @@
+variable "discord_administrators" {
+  type        = list(string)
+  description = "List of Discord User IDs to add to the Administrator Role."
+
+  default = [
+    "377823572309180426",  # `ksatirli`, Kerim Satirli
+    "1025901008527827024", # `workloads-bot`, Service Account
+  ]
+}
+
+variable "discord_bots" {
+  type        = list(string)
+  description = "List of Discord User IDs to add to the Bots Role."
+
+  default = [
+    "1146006004828491857", # `excav-assist`, Service Account
+    "1026312041788616754", # `workloads-bot`, Service Account
+  ]
+}
+
+variable "discord_moderators" {
+  type        = list(string)
+  description = "List of Discord User IDs to add to the Moderators Role."
+
+  default = [
+    "838677533125115904", # `Wondermine`, Taha Ali
+  ]
+}
+
 # Application Identifiers can be retrieved by visiting https://discord.com/developers/applications/
 variable "discord_application_id" {
   type        = string

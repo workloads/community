@@ -4,12 +4,6 @@ variable "discord_application_id" {
   description = "Discord Application Identifier."
 }
 
-variable "discord_application_permissions" {
-  type        = number
-  description = "Discord Application Permission Bit."
-  default     = 8 # `8` represents `Administrator` permissions
-}
-
 # Server Identifiers can be retrieved by inspect the Guilds API call for `discovery-metadata`:
 # see https://discord.com/api/v9/guilds/1025901757815070820/discovery-metadata
 variable "discord_server_id" {
@@ -27,3 +21,7 @@ variable "discord_token" {
   description = "Discord API Token."
 }
 
+variable "project_identifier" {
+  type        = string
+  description = "Human-readable Project Identifier."
+}

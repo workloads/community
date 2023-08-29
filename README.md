@@ -1,3 +1,3 @@
-# community
+# Terraform Cloud Workspace: `community`
 
-Terraform-managed Community Resources
+> This directory manages the lifecycle of the community tools for [@workloads](https://github.com/workloads).

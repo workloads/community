@@ -29,6 +29,21 @@ For more information, including detailed usage guidelines, see the [Terraform do
 | discord_server_id | Discord Server Identifier. | `string` | yes |
 | discord_token | Discord API Token. | `string` | yes |
 | project_identifier | Human-readable Project Identifier. | `string` | yes |
+### Outputs
+
+| Name | Description |
+|------|-------------|
+| discord_category_general | Exported Attributes for `discord_category_channel.general`. |
+| discord_category_info | Exported Attributes for `discord_category_channel.info`. |
+| discord_category_internal | Exported Attributes for `discord_category_channel.internal`. |
+| discord_category_labs | Exported Attributes for `discord_category_channel.labs`. |
+| discord_server | Exported Attributes for `discord_server`. |
+| discord_system_channel | Exported Attributes for `discord_system_channel.main`. |
+| discord_text_channel_general | Exported Attributes for `discord_text_channel.general`. |
+| discord_text_channel_internal | Exported Attributes for `discord_text_channel.internal`. |
+| discord_text_channel_notifications | Exported Attributes for `discord_text_channel.notifications`. |
+| discord_text_channel_rules | Exported Attributes for `discord_text_channel.rules`. |
+<!-- END_TF_DOCS -->
 
 ## Author Information
 

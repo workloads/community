@@ -14,6 +14,7 @@ variable "discord_bots" {
 
   default = [
     "1146006004828491857", # `excav-assist`, Service Account
+    "820032064580485171",  # `Community Verification`, commonroom.io
     "1026312041788616754", # `workloads-bot`, Service Account
   ]
 }

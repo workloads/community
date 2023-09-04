@@ -19,6 +19,22 @@ variable "discord_bots" {
   ]
 }
 
+variable "discord_colors" {
+  type = object({
+    administrators = string
+    bots           = string
+    maintainers    = string
+  })
+
+  description = "Hex Codes for Discord Roles."
+
+  default = {
+    administrators = "#e965a5"
+    bots           = "#b1baf4"
+    maintainers    = "#e965a5"
+  }
+}
+
 variable "discord_moderators" {
   type        = list(string)
   description = "List of Discord User IDs to add to the Moderators Role."

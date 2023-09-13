@@ -12,5 +12,5 @@ resource "discord_server" "main" {
   # Level 1 (Medium):  Must also be registered on Discord for longer than 5 minutes.
   # Level 2 (High):    Must also be a member of this server for longer than 10 minutes.
   # Level 3 (Highest): Must have a verified phone on their Discord account.
-  verification_level = 2
+  verification_level = 1
 }

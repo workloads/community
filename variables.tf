@@ -40,7 +40,8 @@ variable "discord_moderators" {
   description = "List of Discord User IDs to add to the Moderators Role."
 
   default = [
-    "838677533125115904", # `Wondermine`, Taha Ali
+    "838677533125115904",  # `Wondermine`, Taha Ali
+    "1040318092976324638", # `timothymamo`, Tim Mamo
   ]
 }
 

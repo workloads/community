@@ -38,10 +38,10 @@ For more information, including detailed usage guidelines, see the [Terraform do
 
 | Name | Description |
 |------|-------------|
-| discord_category_general | Exported Attributes for `discord_category_channel.general`. |
-| discord_category_info | Exported Attributes for `discord_category_channel.info`. |
-| discord_category_internal | Exported Attributes for `discord_category_channel.internal`. |
-| discord_category_labs | Exported Attributes for `discord_category_channel.labs`. |
+| discord_category_channel_general | Exported Attributes for `discord_category_channel.general`. |
+| discord_category_channel_info | Exported Attributes for `discord_category_channel.info`. |
+| discord_category_channel_internal | Exported Attributes for `discord_category_channel.internal`. |
+| discord_category_channel_labs | Exported Attributes for `discord_category_channel.labs`. |
 | discord_role_administrators | Exported Attributes for `discord_role.administrators`. |
 | discord_role_bots | Exported Attributes for `discord_role.bots`. |
 | discord_role_everyone | Exported Attributes for `discord_role_everyone.everyone`. |

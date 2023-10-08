@@ -1,19 +1,19 @@
-output "discord_category_info" {
+output "discord_category_channel_info" {
   description = "Exported Attributes for `discord_category_channel.info`."
   value       = discord_category_channel.info
 }
 
-output "discord_category_general" {
+output "discord_category_channel_general" {
   description = "Exported Attributes for `discord_category_channel.general`."
   value       = discord_category_channel.general
 }
 
-output "discord_category_internal" {
+output "discord_category_channel_internal" {
   description = "Exported Attributes for `discord_category_channel.internal`."
   value       = discord_category_channel.internal
 }
 
-output "discord_category_labs" {
+output "discord_category_channel_labs" {
   description = "Exported Attributes for `discord_category_channel.labs`."
   value       = discord_category_channel.labs
 }

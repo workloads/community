@@ -31,7 +31,8 @@ For more information, including detailed usage guidelines, see the [Terraform do
 | project_identifier | Human-readable Project Identifier. | `string` | yes |
 | discord_administrators | List of Discord User IDs to add to the Administrator Role. | `list(string)` | no |
 | discord_bots | List of Discord User IDs to add to the Bots Role. | `list(string)` | no |
-| discord_colors | Hex Codes for Discord Roles. | <pre>object({<br>    administrators = string<br>    bots           = string<br>    maintainers    = string<br>  })</pre> | no |
+| discord_colors | Hex Codes for Discord Roles. | <pre>object({<br>    administrators = string<br>    bots           = string<br>    maintainers    = string<br>    moderators     = string<br>  })</pre> | no |
+| discord_maintainers | List of Discord User IDs to add to the Maintainers Role. | `list(string)` | no |
 | discord_moderators | List of Discord User IDs to add to the Moderators Role. | `list(string)` | no |
 
 ### Outputs

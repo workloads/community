@@ -24,25 +24,34 @@ variable "discord_colors" {
     administrators = string
     bots           = string
     maintainers    = string
+    moderators     = string
   })
 
   description = "Hex Codes for Discord Roles."
 
   default = {
     administrators = "#e965a5"
-    bots           = "#b1baf4"
-    maintainers    = "#e965a5"
+    bots           = "#938aad"
+    maintainers    = "#b1baf4"
+    moderators     = "#e192ef"
   }
+}
+
+variable "discord_maintainers" {
+  type        = list(string)
+  description = "List of Discord User IDs to add to the Maintainers Role."
+
+  default = [
+    "838677533125115904",  # `Wondermine`, Taha Ali
+    "1040318092976324638", # `timothymamo`, Tim Mamo
+  ]
 }
 
 variable "discord_moderators" {
   type        = list(string)
   description = "List of Discord User IDs to add to the Moderators Role."
 
-  default = [
-    "838677533125115904",  # `Wondermine`, Taha Ali
-    "1040318092976324638", # `timothymamo`, Tim Mamo
-  ]
+  default = []
 }
 
 # Application Identifiers can be retrieved by visiting https://discord.com/developers/applications/

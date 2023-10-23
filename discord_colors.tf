@@ -12,3 +12,8 @@ data "discord_color" "bots" {
 data "discord_color" "maintainers" {
   hex = var.discord_colors.maintainers
 }
+
+# see https://registry.terraform.io/providers/Lucky3028/discord/latest/docs/data-sources/discord_color
+data "discord_color" "moderators" {
+  hex = var.discord_colors.moderators
+}

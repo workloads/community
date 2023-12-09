@@ -14,14 +14,14 @@ resource "discord_category_channel" "general" {
 
 # see https://registry.terraform.io/providers/Lucky3028/discord/latest/docs/resources/category_channel
 resource "discord_category_channel" "internal" {
-  name      = "Internal"
+  name      = "🔒  Internal"
   server_id = var.discord_server_id
   position  = 3
 }
 
 # see https://registry.terraform.io/providers/Lucky3028/discord/latest/docs/resources/category_channel
 resource "discord_category_channel" "labs" {
-  name      = "Labs"
+  name      = "🧪  Labs"
   server_id = var.discord_server_id
   position  = 2
 }

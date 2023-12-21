@@ -1,6 +1,6 @@
 # Terraform Cloud Workspace: `community`
 
-> This repository manages the lifecycle of community tools for [@workloads](https://github.com/workloads).
+> This repository manages community tools for [@workloads](https://github.com/workloads).
 
 ## Table of Contents
 
@@ -12,13 +12,14 @@
   * [Usage](#usage)
     * [Inputs](#inputs)
     * [Outputs](#outputs)
+  * [Notes](#notes)
   * [Contributors](#contributors)
   * [License](#license)
 <!-- TOC -->
 
 ## Requirements
 
-- HashiCorp Terraform `1.6.x` or [newer](https://developer.hashicorp.com/packer/downloads)
+- HashiCorp Terraform `1.6.x` or [newer](https://developer.hashicorp.com/terraform/downloads)
 
 ### Development
 
@@ -67,6 +68,10 @@ For more information, including detailed usage guidelines, see the [Terraform do
 | discord_text_channel_notifications | Exported Attributes for `discord_text_channel.notifications`. |
 | discord_text_channel_rules | Exported Attributes for `discord_text_channel.rules`. |
 <!-- END_TF_DOCS -->
+
+## Notes
+
+- Terraform state may contain [sensitive data](https://developer.hashicorp.com/terraform/language/state/sensitive-data). This workspace uses [Terraform Cloud](https://developer.hashicorp.com/terraform/cloud-docs) to safely store state, and encrypt the data at rest.
 
 ## Contributors
 

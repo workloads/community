@@ -7,12 +7,24 @@
 <!-- TOC -->
 * [Terraform Cloud Workspace: `community`](#terraform-cloud-workspace-community)
   * [Table of Contents](#table-of-contents)
+  * [Requirements](#requirements)
+    * [Development](#development)
   * [Usage](#usage)
     * [Inputs](#inputs)
     * [Outputs](#outputs)
   * [Contributors](#contributors)
   * [License](#license)
 <!-- TOC -->
+
+## Requirements
+
+- HashiCorp Terraform `1.6.x` or [newer](https://developer.hashicorp.com/packer/downloads)
+
+### Development
+
+For development and testing of this repository:
+
+- `terraform-docs` `0.17.0` or [newer](https://terraform-docs.io/user-guide/installation/)
 
 ## Usage
 

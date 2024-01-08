@@ -16,6 +16,17 @@ resource "discord_text_channel" "general" {
 }
 
 # see https://registry.terraform.io/providers/Lucky3028/discord/latest/docs/resources/text_channel
+resource "discord_text_channel" "badge_computing" {
+  name                     = "badge-computing"
+  category                 = discord_category_channel.labs.id
+  position                 = 0
+  server_id                = var.discord_server_id
+  sync_perms_with_category = false
+  topic                    = ":name_badge: Nomad-orchestrated Conference Badges"
+}
+
+
+# see https://registry.terraform.io/providers/Lucky3028/discord/latest/docs/resources/text_channel
 resource "discord_text_channel" "minecraft_bots" {
   name                     = "minecraft-bots"
   category                 = discord_category_channel.labs.id

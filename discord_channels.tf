@@ -16,8 +16,8 @@ resource "discord_text_channel" "general" {
 }
 
 # see https://registry.terraform.io/providers/Lucky3028/discord/latest/docs/resources/text_channel
-resource "discord_text_channel" "badge_computing" {
-  name                     = "badge-computing"
+resource "discord_text_channel" "baedge" {
+  name                     = "baedge"
   category                 = discord_category_channel.labs.id
   position                 = 0
   server_id                = var.discord_server_id

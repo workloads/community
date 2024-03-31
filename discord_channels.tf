@@ -25,6 +25,15 @@ resource "discord_text_channel" "baedge" {
   topic                    = ":name_badge: Nomad-orchestrated Conference Badges"
 }
 
+# see https://registry.terraform.io/providers/Lucky3028/discord/latest/docs/resources/text_channel
+resource "discord_text_channel" "smart_dial" {
+  name                     = "smart-dial"
+  category                 = discord_category_channel.labs.id
+  position                 = 1
+  server_id                = var.discord_server_id
+  sync_perms_with_category = false
+  topic                    = ":radio_button: Nomad Smart Dial"
+}
 
 # see https://registry.terraform.io/providers/Lucky3028/discord/latest/docs/resources/text_channel
 resource "discord_text_channel" "minecraft_bots" {

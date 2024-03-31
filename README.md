@@ -20,7 +20,7 @@
 
 ## Requirements
 
-- HashiCorp Terraform `1.6.x` or [newer](https://developer.hashicorp.com/terraform/downloads)
+- HashiCorp Terraform `1.7.x` or [newer](https://developer.hashicorp.com/terraform/downloads)
 
 ### Development
 

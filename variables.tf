@@ -42,8 +42,8 @@ variable "discord_maintainers" {
   description = "List of Discord User IDs to add to the Maintainers Role."
 
   default = [
-    "838677533125115904",  # `Wondermine`, Taha Ali
-    "1040318092976324638", # `timothymamo`, Tim Mamo
+    # "838677533125115904",  # `Wondermine`, Taha Ali
+    # "1040318092976324638", # `timothymamo`, Tim Mamo
   ]
 }
 

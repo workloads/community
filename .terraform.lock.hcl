@@ -2,21 +2,17 @@
 # Manual edits may be lost in future updates.
 
 provider "registry.terraform.io/lucky3028/discord" {
-  version     = "1.6.1"
-  constraints = "1.6.1"
+  version     = "1.8.0"
+  constraints = "1.8.0"
   hashes = [
-    "h1:1z51fjnf0I6dDVDBBfRL4z7MYdM5LTp0KTI4bu86ssc=",
-    "h1:6pdqnlGTALtQj6LSJSCbsMVzX6AACQBTEbrdzGO/+ME=",
-    "h1:8jjIflVqxH6+BctsovCIYpc34jjSI8Y8OJowqc//+I8=",
-    "h1:CFmkMuol8u/S+SW3iOKK4L8TFFZG0nvKSf7BqzOpU/g=",
-    "h1:Oz7YAhmWc9amzaT6TyfAZYO53+7c+cIvZ/LwdnNPNJw=",
-    "zh:20266fdbc6cd212b1330ba4947d94b1a3b0f98ccbbb7c1f6b24106ef7d48d847",
-    "zh:218be40758d23509d800746054d760f2304fc6812e161d26a40c63347cf6cc04",
-    "zh:2a54a3b5bb8cc5f9ee2145a82bcd8b53126f61ff1df649224ea4a5ebc8fc50e2",
-    "zh:4293aad5476e7e661b414e46f4e14b8d9940ac23566494ff5b8411c891ffa70b",
-    "zh:900b0f0a3f61b985a247f68c4cccf99904830b3223d1e4f8da3c364040ef3ce4",
-    "zh:b818c7b69966fe7b044a553f4ca0da6aa611bab433350875fd002bd2384f4195",
-    "zh:d172a8629e1a8dbf05b3a2c8a5d120ef32e41f57520bc4bd7390c5152cddca54",
-    "zh:ff722ce61a881d163ddfb231bbdbc11dc4a3eb5e29eb12637fd4f9104b940ec9",
+    "h1:bKO18yqHayVWAquL7y+W4egbP3x7qEfwunCdveJWe5c=",
+    "zh:27573873e7f45efffd7cdc9cb97abfb5af98c5e3a5fa492da0bc43783973a2a4",
+    "zh:5aad4aee854e2cfeb75c11f78aa9deb392c225f4c7e468041bdf65d1bd554379",
+    "zh:799bb713e9f2033228db7251992de17f34f4f10551ee38b2116153c618c2c6d0",
+    "zh:8da114ac96d6186317712e1c0e7833eed9fcc2ab3e5a54fcbf899f1ec2398b93",
+    "zh:936038b9fbf92d1198e19a030df202b5d41352a6cf32348f695dc478c7b108d2",
+    "zh:b46b34bb1f412c1e6b9d339d62481577d8bb78cf7651261dfee3a11db6bd0521",
+    "zh:e967d256c802f3e3c2edfac7d15a997931dcf0c86a5a1ee06d623edbff14c44d",
+    "zh:fe13c21ce52c593b8f757e7a261cce0517a1991d328e6b8ebaa97fa670080e11",
   ]
 }

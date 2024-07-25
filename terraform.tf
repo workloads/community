@@ -12,13 +12,13 @@ terraform {
 
   # see https://developer.hashicorp.com/terraform/language/settings#specifying-provider-requirements
   required_providers {
-    # see # see https://registry.terraform.io/providers/Lucky3028/discord/1.8.0
+    # see # see https://registry.terraform.io/providers/Lucky3028/discord/1.8.1
     discord = {
       source  = "Lucky3028/discord"
-      version = "1.8.0"
+      version = "1.8.1"
     }
   }
 
   # see https://developer.hashicorp.com/terraform/language/settings#specifying-a-required-terraform-version
-  required_version = ">= 1.8.0, < 2.0.0"
+  required_version = ">= 1.9.0, < 2.0.0"
 }

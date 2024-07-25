@@ -1,11 +1,11 @@
-# Terraform Cloud Workspace: `community`
+# HCP Terraform Workspace `community`
 
 > This repository manages community tools for [@workloads](https://github.com/workloads).
 
 ## Table of Contents
 
 <!-- TOC -->
-* [Terraform Cloud Workspace: `community`](#terraform-cloud-workspace-community)
+* [HCP Terraform Workspace `community`](#hcp-terraform-workspace-community)
   * [Table of Contents](#table-of-contents)
   * [Requirements](#requirements)
     * [Development](#development)

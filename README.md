@@ -43,6 +43,7 @@ For more information, including detailed usage guidelines, see the [Terraform do
 | discord_server_id | Discord Server Identifier. | `string` | yes |
 | discord_token | Discord API Token. | `string` | yes |
 | project_identifier | Human-readable Project Identifier. | `string` | yes |
+| tfe_team_token_viewers | HCP Terraform `viewers` Team Token. | `string` | yes |
 | discord_administrators | List of Discord User IDs to add to the Administrator Role. | `list(string)` | no |
 | discord_bots | List of Discord User IDs to add to the Bots Role. | `list(string)` | no |
 | discord_colors | Hex Codes for Discord Roles. | <pre>object({<br>    administrators = string<br>    bots           = string<br>    maintainers    = string<br>    moderators     = string<br>  })</pre> | no |
@@ -68,6 +69,7 @@ For more information, including detailed usage guidelines, see the [Terraform do
 | discord_text_channel_internal | Exported Attributes for `discord_text_channel.internal`. |
 | discord_text_channel_notifications | Exported Attributes for `discord_text_channel.notifications`. |
 | discord_text_channel_rules | Exported Attributes for `discord_text_channel.rules`. |
+| tfe_workspace_terraform_version | Terraform version identifier of current HCP Terraform Workspace. |
 <!-- END_TF_DOCS -->
 
 ## Notes

@@ -72,3 +72,8 @@ output "discord_text_channel_rules" {
   description = "Exported Attributes for `discord_text_channel.rules`."
   value       = discord_text_channel.rules
 }
+
+output "tfe_workspace_terraform_version" {
+  description = "Terraform version identifier of current HCP Terraform Workspace."
+  value       = data.tfe_workspace.main.terraform_version
+}

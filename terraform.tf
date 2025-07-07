@@ -15,7 +15,7 @@ terraform {
     # see # see https://registry.terraform.io/providers/Lucky3028/discord/1.8.1
     discord = {
       source  = "Lucky3028/discord"
-      version = "1.8.1"
+      version = "2.1.0"
     }
 
     # see https://registry.terraform.io/providers/hashicorp/tfe/0.57.0

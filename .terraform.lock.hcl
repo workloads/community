@@ -22,17 +22,17 @@ provider "registry.terraform.io/hashicorp/tfe" {
 }
 
 provider "registry.terraform.io/lucky3028/discord" {
-  version     = "1.8.1"
-  constraints = "1.8.1"
+  version     = "2.2.1"
+  constraints = "2.2.1"
   hashes = [
-    "h1:nsSZ4Lgthd+SDHwY8qTv1KaJ8DhL0soC/RogwbS0UVg=",
-    "zh:2ae1ab12d0e1f09ce466f6db8bc28f0aae4b08e388b06df350a65c840177c2ae",
-    "zh:3913b83840173866fa5581783abf57e767c148d4b76517d659975747d4d12e9a",
-    "zh:5dff278aade07ba151a66bf6b0ede4829eb22b6478daba5fbb1ef6516b4266fa",
-    "zh:8b82a1905735241bd21f7879c0e3397b6466914bdfba00a81d03176e0ba50763",
-    "zh:a81d2006110568c7a9f34280f497674e4ae3de43d3337e2e9a175f3136fec412",
-    "zh:b3a3dd576f43502023448b342c31d7af5681149860b2d27ea9216dbfebac5e8b",
-    "zh:d2e27785fc5775d0b4ed46a3bcca2b6f90a9cde747055a1756ebaad84bc2b322",
-    "zh:df3e533a7cd6e76a23420f6cefd2fac7c8d3c452a697403d3d85de8b4fbf9212",
+    "h1:OylKFBwV6ayT23X2wUtLR7vB3sm6GAgkA2wy8rniX40=",
+    "zh:032f762350f41a971fa63270e3ec35cb33a504906cf568f4f191f9df56757263",
+    "zh:0aad54fbc548643e55c821ff1776a398ee2286fbfcf1da76c41cba4f02bd2ae9",
+    "zh:0c28ffa47c8c3f0b758a7e73db5a7d96db8d8d19e9b02fcb73bb9563330a013d",
+    "zh:1265a65935ca971aa4f0db030a85264108c964824de9001382b38922095c2ce1",
+    "zh:1396368f624e6d431da4f29b92ad4d7e9ec475f0b96e7a19541d4cbd2e343127",
+    "zh:3f40089f3c8ca5ff53ca8df0f05fd09f4c97e29b4337901faed3c7a9861e22ee",
+    "zh:77d30ee7203bd644d7f450b565821ee73c68c6f44fe31c3b2e8ca2fb8a8e4345",
+    "zh:db12227cacbbd1c7f974bc15cd5a36e35d9eb16d9f3fba2c647c37fc98958234",
   ]
 }
